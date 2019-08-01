@@ -1,5 +1,6 @@
-from interface import user
+from interface import user, bank
 from lib import common
+
 
 def register():
     while True:
@@ -42,14 +43,28 @@ def login():
             print(msg)
             break
 
+
 @common.login_auth
 def transfer():
     print('转账')
+    while True:
+        to_name = input('请输入你需要转的账号：>>').strip()
+        money = input('请输入你转账的金额：>>').strip()
+        if money.isdigit():
+            money = int(money)
+            flag, msg = bank.transfer_interface(user_data['name'], to_name, money)
+            if flag:
+                print(msg)
+                break
+            else:
+                print(msg)
+
 
 @common.login_auth
 def check_balance():
     print('查询')
-
+    balance = bank.check_balance_interface(user_data['name'])
+    print(balance)
 
 
 def shopping():
@@ -58,6 +73,7 @@ def shopping():
 
 def logout():
     user_data['name'] = None
+
 
 func_dic = {
     '1': register,

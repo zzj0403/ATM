@@ -7,5 +7,4 @@ def login_auth(func):
             src.login()
         else:
             return func(*args, **kwargs)
-
     return warapper
