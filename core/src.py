@@ -66,6 +66,7 @@ def check_balance():
     balance = bank.check_balance_interface(user_data['name'])
     print(balance)
 
+@common.login_auth
 
 def repay():
     print('还款')
@@ -76,6 +77,7 @@ def repay():
             flag, msg = bank.repay_interface(user_data['name'], money)
             if flag:
                 print(msg)
+                break
             else:
                 print(msg)
 
@@ -95,7 +97,7 @@ func_dic = {
     '4': check_balance,
     '5': shopping,
     '6': logout,
-    '7': repay
+    '8': repay
 }
 
 
@@ -109,6 +111,7 @@ def run():
     5：购物
     6: 登出
     7：退出
+    8: 转账
     """
         print(msg)
         choice = input(">>").strip()
