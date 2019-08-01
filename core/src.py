@@ -67,6 +67,19 @@ def check_balance():
     print(balance)
 
 
+def repay():
+    print('还款')
+    while True:
+        money = input('请输入你转账的金额：>>').strip()
+        if money.isdigit():
+            money = int(money)
+            flag, msg = bank.repay_interface(user_data['name'], money)
+            if flag:
+                print(msg)
+            else:
+                print(msg)
+
+
 def shopping():
     print('购物')
 
@@ -81,7 +94,8 @@ func_dic = {
     '3': transfer,
     '4': check_balance,
     '5': shopping,
-    '6': logout
+    '6': logout,
+    '7': repay
 }
 
 

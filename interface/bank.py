@@ -22,3 +22,10 @@ def transfer_interface(from_name, to_name, balance):
             return False, '您的余额不够'
     else:
         return False, '您要转账人用户不存在'
+
+
+def repay_interface(name, money):
+    user_dic = db_handler.select(name)
+    user_dic['balance'] += money
+    db_handler.save(user_dic)
+    return True, '转账成功'
