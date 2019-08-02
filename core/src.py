@@ -10,6 +10,9 @@ def register():
         name = input("请输入名字:>>").strip()
         passwrod = input('请输入密码:>>').strip()
         repeat_passwrod = input('重复输入密码:>>').strip()
+        if name is None or passwrod is None:
+            print('用户名和密码不能为空')
+            continue
         if passwrod == repeat_passwrod:
             flag, msg = user.register_interface(name, passwrod)
             if flag:
@@ -66,8 +69,8 @@ def check_balance():
     balance = bank.check_balance_interface(user_data['name'])
     print(balance)
 
-@common.login_auth
 
+@common.login_auth
 def repay():
     print('还款')
     while True:
