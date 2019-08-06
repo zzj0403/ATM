@@ -1,15 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="e1ae8c62-8aff-420f-b2e7-e2d52a281c27" name="Default Changelist" comment="转账ok">
+    <list default="true" id="e1ae8c62-8aff-420f-b2e7-e2d52a281c27" name="Default Changelist" comment="注册会出现空用户">
+      <change afterPath="$PROJECT_DIR$/interface/shop.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/core/src.py" beforeDir="false" afterPath="$PROJECT_DIR$/core/src.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db/cc.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/cc.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/db/zzj.json" beforeDir="false" afterPath="$PROJECT_DIR$/db/zzj.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/bank.py" beforeDir="false" afterPath="$PROJECT_DIR$/interface/bank.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
   </component>
   <component name="FavoritesManager">
     <favorites_list name="ATM" />
@@ -19,15 +37,29 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/core/src.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="157">
-              <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+            <state relative-caret-position="608">
+              <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
-                <element signature="e#91#560#0" />
-                <element signature="e#575#595#0" />
-                <element signature="e#615#1001#0" />
-                <element signature="e#1104#1187#0" />
+                <element signature="e#0#32#0" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/shop.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="95">
+              <caret line="5" column="29" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="24" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/cc.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="155" selection-start-column="155" selection-end-column="167" />
             </state>
           </provider>
         </entry>
@@ -42,27 +74,31 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/bank.py">
+        <entry file="file://$PROJECT_DIR$/interface/user.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
+            <state relative-caret-position="209">
+              <caret line="11" column="31" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="31" />
               <folding>
-                <element signature="e#67#122#0" />
-                <element signature="e#197#589#0" />
-                <element signature="e#719#806#0" />
+                <element signature="e#0#25#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor>
-                <caret column="5" selection-start-column="5" selection-end-column="5" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/interface/bank.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="407">
+              <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/db/胡帅.json">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="100" selection-start-column="100" selection-end-column="107" />
             </state>
           </provider>
         </entry>
@@ -70,8 +106,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/common.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="190">
-              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+            <state relative-caret-position="152">
+              <caret line="8" selection-start-line="8" selection-end-line="8" />
             </state>
           </provider>
         </entry>
@@ -79,11 +115,12 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/db/db_handler.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="152">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="e#0#15#0" expanded="true" />
                 <element signature="e#68#247#0" />
+                <element signature="e#272#523#0" />
               </folding>
             </state>
           </provider>
@@ -92,8 +129,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/start.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="152">
-              <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+            <state relative-caret-position="190">
+              <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
             </state>
           </provider>
         </entry>
@@ -120,16 +157,18 @@
         <option value="$PROJECT_DIR$/lib/common.py" />
         <option value="$PROJECT_DIR$/start.py" />
         <option value="$PROJECT_DIR$/README.md" />
+        <option value="$USER_HOME$/Desktop/脚本/test.py" />
         <option value="$PROJECT_DIR$/interface/bank.py" />
+        <option value="$PROJECT_DIR$/interface/shop.py" />
         <option value="$PROJECT_DIR$/core/src.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="408" />
-    <option name="y" value="111" />
-    <option name="width" value="1290" />
-    <option name="height" value="771" />
+    <option name="x" value="509" />
+    <option name="y" value="61" />
+    <option name="width" value="1165" />
+    <option name="height" value="856" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -137,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -163,7 +203,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -193,6 +232,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.start">
+    <configuration name="bank" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ATM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/interface" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/interface/bank.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="src" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ATM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,28 +276,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="start (1)" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="ATM" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="start" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="ATM" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -251,6 +290,28 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/start.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="test" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="ATM" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$USER_HOME$/Desktop/脚本" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$USER_HOME$/Desktop/脚本/test.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -284,15 +345,17 @@
     <list>
       <item itemvalue="Python.src" />
       <item itemvalue="Python.start" />
-      <item itemvalue="Python.start (1)" />
       <item itemvalue="Python.user" />
+      <item itemvalue="Python.bank" />
+      <item itemvalue="Python.test" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.start" />
+        <item itemvalue="Python.test" />
+        <item itemvalue="Python.bank" />
         <item itemvalue="Python.src" />
         <item itemvalue="Python.user" />
-        <item itemvalue="Python.start (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -322,7 +385,8 @@
       <workItem from="1564559902192" duration="2986000" />
       <workItem from="1564568118315" duration="430000" />
       <workItem from="1564568878561" duration="725000" />
-      <workItem from="1564624323526" duration="10887000" />
+      <workItem from="1564624323526" duration="20897000" />
+      <workItem from="1565001315247" duration="2218000" />
     </task>
     <task id="LOCAL-00001" summary="test">
       <created>1564568931914</created>
@@ -352,11 +416,18 @@
       <option name="project" value="LOCAL" />
       <updated>1564652655907</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="注册会出现空用户">
+      <created>1564713254788</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1564713254788</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="34576000" />
+    <option name="totallyTimeSpent" value="46804000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -368,24 +439,23 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="408" y="111" width="1290" height="771" extended-state="0" />
-    <editor active="true" />
+    <frame x="509" y="61" width="1165" height="856" extended-state="0" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.14227642" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49815497" visible="true" weight="0.160181" />
       <window_info id="Structure" order="1" sideWeight="0.501845" side_tool="true" weight="0.15673077" />
       <window_info id="Favorites" order="2" sideWeight="0.501845" side_tool="true" weight="0.15673077" />
       <window_info id="Alibaba Cloud Explorer" order="3" weight="0.3291866" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498374" visible="true" weight="0.32496077" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.6802218" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.498374" weight="0.26869807" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.30483273" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" weight="0.32936078" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3283767" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903846" weight="0.3265306" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.49903846" weight="0.32589838" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
-      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501626" side_tool="true" weight="0.32496077" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.501626" side_tool="true" weight="0.32342008" />
       <window_info anchor="bottom" id="Terminal" order="11" weight="0.33763838" />
       <window_info anchor="bottom" id="Python Console" order="12" show_stripe_button="false" weight="0.32969698" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="13" sideWeight="0.49954087" weight="0.32848486" />
@@ -393,13 +463,23 @@
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="SciView" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
+      <window_info anchor="right" id="SciView" order="3" weight="0.32986626" />
+      <window_info anchor="right" id="Database" order="4" weight="0.32986626" />
       <window_info anchor="right" id="Alibaba Log Console" order="5" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
@@ -445,7 +525,8 @@
     <MESSAGE value="sd" />
     <MESSAGE value="test" />
     <MESSAGE value="转账ok" />
-    <option name="LAST_COMMIT_MESSAGE" value="转账ok" />
+    <MESSAGE value="注册会出现空用户" />
+    <option name="LAST_COMMIT_MESSAGE" value="注册会出现空用户" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -460,9 +541,11 @@
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/ATM$src.coverage" NAME="src Coverage Results" MODIFIED="1564558980435" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/core" />
-    <SUITE FILE_PATH="coverage/ATM$start.coverage" NAME="start Coverage Results" MODIFIED="1564655224160" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/ATM$start.coverage" NAME="start Coverage Results" MODIFIED="1565061479393" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/" />
+    <SUITE FILE_PATH="coverage/ATM$bank.coverage" NAME="bank Coverage Results" MODIFIED="1564973545938" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/ATM$user.coverage" NAME="user Coverage Results" MODIFIED="1564552712788" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/interface" />
     <SUITE FILE_PATH="coverage/ATM$start__1_.coverage" NAME="start (1) Coverage Results" MODIFIED="1564551264170" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/ATM$test.coverage" NAME="test Coverage Results" MODIFIED="1565001398323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$USER_HOME$/Desktop/脚本" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/bin/start.py" />
@@ -485,46 +568,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/user.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="11" column="31" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="31" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../pyporject/day03/01 闭包函数及装饰器.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="209">
           <caret line="29" lean-forward="true" selection-start-line="29" selection-end-line="29" />
         </state>
       </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/common.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/胡帅.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/db_handler.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-          <folding>
-            <element signature="e#0#15#0" expanded="true" />
-            <element signature="e#68#247#0" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/db/cc.json">
-      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/常聪.json">
       <provider selected="true" editor-type-id="text-editor" />
@@ -539,24 +588,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/bank.py">
+    <entry file="file://$PROJECT_DIR$/db/.json" />
+    <entry file="file://$PROJECT_DIR$/db/胡帅.json">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="190">
-          <caret line="31" lean-forward="true" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="e#67#122#0" />
-            <element signature="e#197#589#0" />
-            <element signature="e#719#806#0" />
-          </folding>
+        <state>
+          <caret column="100" selection-start-column="100" selection-end-column="107" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/start.py">
+    <entry file="file://D:/software/python/Lib/site-packages/aliyunsdkcore/client.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="8" column="26" lean-forward="true" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+        <state relative-caret-position="-390">
+          <caret line="455" selection-start-line="455" selection-end-line="455" />
         </state>
       </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/脚本/test.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/db/zzj.json">
       <provider selected="true" editor-type-id="text-editor">
@@ -565,16 +613,69 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/lib/common.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" selection-start-line="8" selection-end-line="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/db_handler.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="e#0#15#0" expanded="true" />
+            <element signature="e#68#247#0" />
+            <element signature="e#272#523#0" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/bank.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="407">
+          <caret line="38" column="29" selection-start-line="38" selection-start-column="29" selection-end-line="38" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/user.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="11" column="31" selection-start-line="11" selection-start-column="27" selection-end-line="11" selection-end-column="31" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/db/cc.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="155" selection-start-column="155" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/shop.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="5" column="29" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/start.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/core/src.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="157">
-          <caret line="79" column="21" selection-start-line="79" selection-start-column="21" selection-end-line="79" selection-end-column="21" />
+        <state relative-caret-position="608">
+          <caret line="104" lean-forward="true" selection-start-line="104" selection-end-line="104" />
           <folding>
-            <element signature="e#0#26#0" expanded="true" />
-            <element signature="e#91#560#0" />
-            <element signature="e#575#595#0" />
-            <element signature="e#615#1001#0" />
-            <element signature="e#1104#1187#0" />
+            <element signature="e#0#32#0" expanded="true" />
           </folding>
         </state>
       </provider>

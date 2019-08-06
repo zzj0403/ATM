@@ -1,4 +1,4 @@
-from interface import user, bank
+from interface import bank,shop,user
 from lib import common
 
 
@@ -85,8 +85,18 @@ def repay():
                 print(msg)
 
 
+@common.login_auth
+def cheack_record():
+    print('查看流水')
+    bankflow = bank.check_money_interface(user_data['name'])
+    for flow in bankflow:
+        print(flow)
+
+@common.login_auth
 def shopping():
     print('购物')
+    shoppinterface= shop.sheck_shop_interface(user_data['name'])
+    print(shoppinterface)
 
 
 def logout():
@@ -100,7 +110,8 @@ func_dic = {
     '4': check_balance,
     '5': shopping,
     '6': logout,
-    '8': repay
+    '8': repay,
+    '9': cheack_record
 }
 
 
@@ -115,6 +126,7 @@ def run():
     6: 登出
     7：退出
     8: 转账
+    9: 查看流水
     """
         print(msg)
         choice = input(">>").strip()
